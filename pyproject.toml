@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "games-projects"
+version = "0.1.0"
+description = "scripts de different jeu simple"
+authors = ["camille"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+
+[tool.poetry.group.dev.dependencies]
+my-package = "^0.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
