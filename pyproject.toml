@@ -10,6 +10,7 @@ python = "^3.12"
 pandas = "^2.2.3"
 scikit-learn = "^1.5.2"
 random2 = "^1.0.2"
+pythonturtle = "^0.3.2"
 
 [tool.poetry.group.dev.dependencies]
 my-package = "^0.0.0"

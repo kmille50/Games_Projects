@@ -8,10 +8,10 @@ food_size = 10
 delay = 100
 
 offsets = {
-    "haut":(0,20),
-    "bas":(0,-20),
-    "gauche":(-20,0),
-    "droite":(20,0)
+    "up":(0,20),
+    "down":(0,-20),
+    "left":(-20,0),
+    "right":(20,0)
 }
 
 def reset():
@@ -21,6 +21,7 @@ def reset():
     food_position = get_random_food_position()
     food.goto(food_position)
     move_snake()
+
 
 def move_snake():
     global snake_dir
@@ -39,7 +40,7 @@ def move_snake():
 
         if snake[-1][0] > w / 2:
             snake[-1][0] -= w
-        elif snake[-1][0] < - w / 2:
+        elif snake[-1][0] < -w / 2:
             snake[-1][0] += w
         elif snake[-1][1] > h / 2:
             snake[-1][1] -= h
@@ -53,21 +54,22 @@ def move_snake():
             pen.stamp()
 
         screen.update
-        turtle.ontimer(move_snake,delay)
+
+        turtle.ontimer(move_snake, delay)
 
 # Collision food and snake
 def food_collision():
-    global food_collision
+    global food_position
     if get_distance(snake[-1], food_position) < 20:
         food_position = get_random_food_position()
         food.goto(food_position)
         return True
     return False
 
-# Draw blocs of food randomly in the field
+# Fonction pour générer une nouvelle position de nourriture
 def get_random_food_position():
-    x = random.randint(- w / 2 + food_size, w / 2 - food_size)
-    y = random.randint(- h / 2 + food_size, h / 2 - food_size)
+    x = random.randint(int(-w/2 + food_size), int(w/2 - food_size))
+    y = random.randint(int(-h/2 + food_size), int(h/2 - food_size))
     return (x, y)
 
 # Move of the snake

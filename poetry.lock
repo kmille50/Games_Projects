@@ -676,6 +676,17 @@ files = [
 six = ">=1.5"
 
 [[package]]
+name = "pythonturtle"
+version = "0.3.2"
+description = "An educational environment for learning Python, suitable for beginners"
+optional = false
+python-versions = ">=3"
+files = [
+    {file = "PythonTurtle-0.3.2-py3-none-any.whl", hash = "sha256:255d1912c79e34c47e93684e915ea74c584d38bc94637c16a161212ce332b6b5"},
+    {file = "PythonTurtle-0.3.2.tar.gz", hash = "sha256:bd5628ab23a73189ec1cb9effbddf2f9fb43613ee9c971cf0954700b202d8534"},
+]
+
+[[package]]
 name = "pytz"
 version = "2024.2"
 description = "World timezone definitions, modern and historical"
@@ -1037,4 +1048,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "9f4727d740a243fc364f86879b4091886b448bb13291204a6bef6c486578e11a"
+content-hash = "871c692c4c300f229dc5d46ae2e889b687c7f558e0fd34083bd8694e91cece8c"
