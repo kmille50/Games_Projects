@@ -1,0 +1,98 @@
+[
+    {
+        "bitcoin": {
+            "usd": 105142
+        },
+        "ethereum": {
+            "usd": 3406.03
+        },
+        "solana": {
+            "usd": 238.83
+        },
+        "timestamp": "2025-01-31T17:31:49.454664"
+    },
+    {
+        "bitcoin": {
+            "usd": 105142
+        },
+        "ethereum": {
+            "usd": 3406.03
+        },
+        "solana": {
+            "usd": 238.83
+        },
+        "timestamp": "2025-01-31T17:32:49.299405"
+    },
+    {
+        "bitcoin": {
+            "usd": 105142
+        },
+        "ethereum": {
+            "usd": 3406.03
+        },
+        "solana": {
+            "usd": 238.83
+        },
+        "timestamp": "2025-01-31T17:34:14.371217"
+    },
+    {
+        "bitcoin": {
+            "usd": 105142
+        },
+        "ethereum": {
+            "usd": 3406.03
+        },
+        "solana": {
+            "usd": 238.83
+        },
+        "timestamp": "2025-01-31T17:35:10.731992"
+    },
+    {
+        "bitcoin": {
+            "usd": 105142
+        },
+        "ethereum": {
+            "usd": 3406.03
+        },
+        "solana": {
+            "usd": 238.83
+        },
+        "timestamp": "2025-01-31T17:36:35.679930"
+    },
+    {
+        "bitcoin": {
+            "usd": 104858
+        },
+        "ethereum": {
+            "usd": 3398.82
+        },
+        "solana": {
+            "usd": 238.48
+        },
+        "timestamp": "2025-01-31T17:37:51.406691"
+    },
+    {
+        "bitcoin": {
+            "usd": 104858
+        },
+        "ethereum": {
+            "usd": 3398.82
+        },
+        "solana": {
+            "usd": 238.48
+        },
+        "timestamp": "2025-01-31T17:39:16.472774"
+    },
+    {
+        "bitcoin": {
+            "usd": 104990
+        },
+        "ethereum": {
+            "usd": 3398.71
+        },
+        "solana": {
+            "usd": 238.46
+        },
+        "timestamp": "2025-01-31T17:48:36.291924"
+    }
+]
