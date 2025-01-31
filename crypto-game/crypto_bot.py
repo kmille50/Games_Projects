@@ -42,7 +42,7 @@ def git_commit_and_push():
         subprocess.run(["git", "commit", "-m", f"Update prices {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"], check=True)
         
          # Push avec tracking de la branche principale
-        subprocess.run(["git", "push", "-u", "origin", "main"], check=True)
+        subprocess.run(["git", "push", "-u", "origin", "master"], check=True)
 
         print("Push effectué avec succès ! 🚀")
 
