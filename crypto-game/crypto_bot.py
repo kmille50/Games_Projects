@@ -1,8 +1,11 @@
 import requests
 import json
 import os
+from dotenv import load_dotenv
 from datetime import datetime
 import subprocess
+
+load_dotenv()
 
 # Configuration
 CRYPTO_IDS = ["bitcoin", "ethereum", "solana"]
