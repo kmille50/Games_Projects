@@ -53,12 +53,11 @@ def move_snake():
             pen.goto(segment[0], segment[1])
             pen.stamp()
 
-        screen.update
+        screen.update()
 
         turtle.ontimer(move_snake, delay)
 
-# Collision food 
-# Collision snake
+# Collision food snake
 def food_collision():
     global food_position
     if get_distance(snake[-1], food_position) < 20:
@@ -71,6 +70,8 @@ def food_collision():
 def get_random_food_position():
     x = random.randint(int(-w/2 + food_size), int(w/2 - food_size))
     y = random.randint(int(-h/2 + food_size), int(h/2 - food_size))
+    # x = random.randint(-w//2 + food_size, w//2 - food_size) // 20 * 20
+    # y = random.randint(-h//2 + food_size, h//2 - food_size) // 20 * 20
     return (x, y)
 
 # Move of the snake
@@ -103,7 +104,8 @@ def go_left():
 
 # Set up the screen
 screen = turtle.Screen()
-screen.setup(width=500, height=500)
+screen.setup(w, h)
+screen.setup(500, 500)
 screen.title("Snake")
 screen.bgcolor("blue")
 screen.tracer(0) # Turns off the screen updates
