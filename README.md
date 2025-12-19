@@ -15,6 +15,8 @@ Snake est un jeu classique où le joueur contrôle un serpent qui grandit lorsqu
 
 ## Installation
 1. Clonez le dépôt ou téléchargez les fichiers source.
-   ```bash
    git clone https://github.com/kmille50/Games_Projects.git
    cd snake-game
+2. Lancer le script.
+   python snake.py
+
